@@ -120,6 +120,7 @@
                     <form autocomplete="off" action="{{ route('task.update', $task->id) }}" method="POST">
                         @csrf
                         @method('PUT')
+                        
                         <div class="form-group row">
                             <label class="col-sm-3 col-form-label">Task title</label>
                             <div class="col-sm-9">
